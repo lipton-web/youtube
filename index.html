@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    
+    <title>YouTube</title>
+
+    <script src="main.js" defer></script>
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">YouTube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- video player -->
+    <section class="player">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hkg6Vu2Um5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <video controls src="Clouds over field.mp4"></video> -->
+     </section>
+
+     <!-- video Info & Up next   -->
+    <div class="infoAndUpNext">
+        <section class="info">
+            <!-- metadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#DreamCoding</li>
+                    <li>#DreamCoders</li>
+                    <li>#Ellie</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        폭력적인 중국인에게 대처하는 법 : 중국인에게 타이완 넘버원을 외쳐보았다 - TAIWAN #1 (conan exiles) / 클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오)
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">조회수 363만회 · 4년 전</span>
+            </div>
+            <!-- actions button -->
+            <ul class="actions">
+                <li><button><i class="active far fa-thumbs-up"></i><span>3.1만</span></button></li>
+                <li><button><i class="far fa-thumbs-down"></i><span>1천</span></button></li>
+                <li><button><i class="fas fa-share"></i><span>공유</span></button></li>
+                <li><button><i class="fas fa-plus"></i><span>저장</span></button></li>
+                <li><button><i class="fas fa-flag"></i><span>리포트</span></button></li>
+            </ul>
+            <!-- channel description -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="img/wak.jpg" alt="">
+                    <div class="info">
+                        <span class="name">우왁굳의 게임방송</span>
+                        <span class="subscribers">117만명</span>
+                    </div>
+                </div>
+                <button class="subscribe">구독중</button>
+            </div>
+        </section>
+
+        <!-- up next -->
+        <section class="upNext">
+            <span class="title">Up Next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="img/1.png" alt=""/></div>
+                    <div class="itemInfo">  
+                        <span class="title">정식 풀 한글화! 약빤 동물 레이싱 야생동물경주 - WILD ANIMAL RACING</span>
+                        <span class="name">우왁굳의 게임방송</span>
+                        <span class="views">14만회</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button> 
+                </li>
+                <li class="item">
+                    <div class="img"><img src="img/2.png" alt=""/></div>
+                    <div class="itemInfo">  
+                        <span class="title">호랑이보다 사자가 최고인 이유 - 왁굳의 노가리</span>
+                        <span class="name">우왁굳의 게임방송</span>
+                        <span class="views">54만회</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button> 
+                </li>
+                <li class="item">
+                    <div class="img"><img src="img/3.png" alt=""/></div>
+                    <div class="itemInfo">  
+                        <span class="title">인천에서 절대 가지 말아야할 곳 - 왁굳의 노가리</span>
+                        <span class="name">우왁굳의 게임방송</span>
+                        <span class="views">113만회</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button> 
+                </li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
